@@ -42,6 +42,6 @@ module.exports = {
       html: generator.generate(body),
     };
 
-    mail_gun.messages().send(data, function (err2, body) {});
+    mail_gun.messages().send(data);
   },
 };
