@@ -1,0 +1,17 @@
+{
+  "name": "disturb-engineers",
+  "version": "1.0.0",
+  "description": "A simple cron to disturb engineers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "mailgen": "^2.0.27",
+    "mailgun-js": "^0.22.0",
+    "node-cron": "^3.0.2"
+  }
+}
